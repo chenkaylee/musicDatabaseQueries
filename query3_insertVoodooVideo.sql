@@ -4,4 +4,4 @@
 INSERT INTO MusicVideo (track_id, videoDirector)
     SELECT track_id, "Voodoo Director"
     FROM Tracks
-    WHERE name == "Voodoo";
+    WHERE name = "Voodoo";
